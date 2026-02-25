@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NB Construction Company</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+/* HEADER */
+header {
+    background: #0f172a;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: #f4b400;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SECTION */
+section {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.services, .projects {
+    background: white;
+}
+
+.box {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    background: #0f172a;
+    color: white;
+    border-radius: 8px;
+}
+
+/* ABOUT */
+.about {
+    background: #e2e8f0;
+}
+
+/* INTERIOR DESIGN */
+.interior {
+    background: #fdf6ec;
+}
+
+.interior-box {
+    display: inline-block;
+    width: 260px;
+    margin: 15px;
+    padding: 25px;
+    background: #b45309;
+    color: white;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+    background: #0f172a;
+    color: white;
+}
+
+input, textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 12px 25px;
+    background: #f4b400;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="NB Construction Logo">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Civil Work</a>
+        <a href="#interior">Interior Design</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>NB Construction Company</h1>
+    <p>All Kind of Civil Work & Interior Design</p>
+    <a href="tel:9929406447" class="btn">Call Now</a>
+</div>
+
+<section id="about" class="about">
+    <h2>About Our Company</h2>
+    <p>
+        NB Construction Company, located at Luniyawas, Goner Road, Jaipur,
+        provides complete construction and interior design solutions.
+        We specialize in residential, commercial, renovation, and modern interior projects.
+    </p>
+    <p>
+        Our expert team ensures strong structure construction along with
+        stylish and modern interior finishing.
+    </p>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Civil Services</h2>
+    <div class="box">Residential Building Construction</div>
+    <div class="box">Commercial Projects</div>
+    <div class="box">Road Construction</div>
+    <div class="box">Renovation & Remodeling</div>
+    <div class="box">All Civil Work</div>
+</section>
+
+<section id="interior" class="interior">
+    <h2>Our Interior Design Services</h2>
+    <div class="interior-box">Modular Kitchen Design</div>
+    <div class="interior-box">False Ceiling Work</div>
+    <div class="interior-box">Bedroom Interior Design</div>
+    <div class="interior-box">Office Interior Design</div>
+    <div class="interior-box">Wall Panels & Lighting Design</div>
+</section>
+
+<section class="projects">
+    <h2>Why Choose Us?</h2>
+    <div class="box">✔ Experienced Team</div>
+    <div class="box">✔ Modern Design Ideas</div>
+    <div class="box">✔ Quality Materials</div>
+    <div class="box">✔ On-Time Delivery</div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 9929406447</p>
+    <p><strong>Address:</strong> Luniyawas, Goner Road, Jaipur</p>
+
+    <h3>Send Enquiry</h3>
+    <form>
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="tel" placeholder="Your Phone Number" required><br>
+        <textarea rows="4" placeholder="Your Message"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 NB Construction Company | All Rights Reserved
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919929406447" target="_blank">
+    WhatsApp
+</a>
+
+</body>
+</html>
